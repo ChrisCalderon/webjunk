@@ -1,0 +1,30 @@
+body {
+  background-image: url(doge.jpg);
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+div#title {
+  color: black;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  margin: 0;
+  background-color: #E4D5AA;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+div#game {
+    position: absolute;
+    top: 110px;
+    left: calc(50% - 125px);
+    margin: 0;
+    height: calc(100% - 110px);
+    width: 250px;
+    background-color: blue;
+}
